@@ -1,0 +1,8 @@
+@use "./color" as color;
+
+@mixin buttons {
+  background-color: color.$blue-900; //put a map instead of color
+  color: color.$white;
+  border-radius: 1rem;
+  @content;
+}

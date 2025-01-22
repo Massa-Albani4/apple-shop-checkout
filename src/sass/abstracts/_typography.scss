@@ -1,0 +1,12 @@
+$font-inter: "Inter", Arial, sans-serif;
+
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-Bold.ttf") format("truetype"),
+    url("assets/fonts/Inter-SemiBold.woff") format("truetype"),
+    url("assets/fonts/Inter-Medium.woff") format("truetype"),
+    url("assets/fonts/Inter-Regular.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

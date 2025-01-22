@@ -8,9 +8,9 @@ function Form() {
         <label htmlFor="">Email Address</label>
         <input type="text" placeholder="Enter email address" />
         <label htmlFor="">Country</label>
-        <input type="text" placeholder="" />
+        <input type="text" />
         <label htmlFor="">Postal Code</label>
-        <input type="text" placeholder="" />
+        <input type="text" />
         <button>Continue</button>
       </form>
     </div>

@@ -1,4 +1,4 @@
-import "./style.scss";
+import "./sass/style.scss";
 import Item from "./Item.jsx";
 import Form from "./Form.jsx";
 
@@ -19,7 +19,7 @@ function App() {
           <div>
             <div>
               <input type="text" placeholder="Enter coupon code" />
-              <button>Apply Coupon</button>
+              <button className="cartBtn">Apply Coupon</button>
             </div>
             <div>
               <div>

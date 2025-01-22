@@ -1,0 +1,6 @@
+@use "./abstracts/typography" as typography;
+@use "./components/button";
+
+body {
+  font-family: typography.$font-inter;
+}
