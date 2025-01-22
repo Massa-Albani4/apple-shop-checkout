@@ -4,7 +4,7 @@ import Form from "./Form.jsx";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <header>
         <h1>Checkout</h1>
         <div>

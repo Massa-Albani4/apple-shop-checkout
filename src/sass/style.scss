@@ -2,5 +2,18 @@
 @use "./components/button";
 
 body {
+  height: 100%;
   font-family: typography.$font-inter;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.page {
+  background-image: url("/src/assets/background-image.png");
+  background-repeat: no-repeat;
+  background-size: 400px 100px;
 }
