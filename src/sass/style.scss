@@ -1,5 +1,6 @@
 @use "./abstracts/typography" as typography;
-@use "./components/button";
+@use "./layouts/header";
+@use "./abstracts/reset";
 
 body {
   height: 100%;
@@ -12,8 +13,11 @@ h1 {
   margin: 0;
 }
 
-.page {
-  background-image: url("/src/assets/background-image.png");
-  background-repeat: no-repeat;
-  background-size: 400px 100px;
+.app {
+  position: relative;
+}
+
+.app__background-image {
+  position: absolute;
+  height: 11.5rem;
 }

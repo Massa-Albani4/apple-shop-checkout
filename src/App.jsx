@@ -1,13 +1,19 @@
 import "./sass/style.scss";
 import Item from "./Item.jsx";
 import Form from "./Form.jsx";
+import bgImg from "./assets/background-image-mobile.png";
 
 function App() {
   return (
-    <div className="container">
-      <header>
-        <h1>Checkout</h1>
-        <div>
+    <div className="app">
+      <img
+        className="app__background-image"
+        src={bgImg}
+        alt="background-image"
+      />
+      <header className="header">
+        <h1 className="header__title">Checkout</h1>
+        <div className="header__item-count">
           <p>3 ITEMS</p>
         </div>
       </header>
