@@ -1,10 +1,13 @@
+@use "./abstracts/reset";
 @use "./abstracts/typography" as typography;
 @use "./layouts/header";
-@use "./abstracts/reset";
+@use "./layouts/cart";
+@use "/src/sass/abstracts/colors" as colors;
 
 body {
   height: 100%;
   font-family: typography.$font-inter;
+  background-color: map-get(colors.$colors, gray-300);
   margin: 0;
   padding: 0;
 }
@@ -15,9 +18,8 @@ h1 {
 
 .app {
   position: relative;
-}
-
-.app__background-image {
-  position: absolute;
-  height: 11.5rem;
+  &__background-image {
+    position: absolute;
+    height: 11.5rem;
+  }
 }

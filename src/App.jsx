@@ -17,11 +17,13 @@ function App() {
           <p>3 ITEMS</p>
         </div>
       </header>
-      <main>
-        <section>
-          <Item />
-          <Item />
-          <Item />
+      <main className="app__main">
+        <section className="app__main__checkout">
+          <div className="app__main__checkout__items-container">
+            <Item />
+            <Item />
+            <Item />
+          </div>
           <div>
             <div>
               <input type="text" placeholder="Enter coupon code" />

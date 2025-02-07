@@ -6,24 +6,21 @@
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
+  z-index: 1;
   align-items: center;
-  padding-top: 1.5rem;
   width: 100%;
   color: white;
-}
-
-.header__title {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.header__item-count {
-  background-color: map-get(colors.$colors, blue-900);
-  font-size: 0.75rem;
-  padding: 0.25rem 0.65rem 0.25rem 0.65rem;
-  border-radius: 1rem;
-}
-
-.header__item-count p {
-  margin: 0;
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  &__item-count {
+    background-color: map-get(colors.$colors, blue-900);
+    font-size: 0.75rem;
+    padding: 0.25rem 0.65rem 0.25rem 0.65rem;
+    border-radius: 1rem;
+  }
+  &__item-count p {
+    margin: 0;
+  }
 }
