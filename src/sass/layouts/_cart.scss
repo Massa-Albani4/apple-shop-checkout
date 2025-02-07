@@ -2,7 +2,7 @@
 
 .app__main {
   position: absolute;
-  top: 8rem;
+  top: 6rem;
   padding: 0 0.75rem 0 0.75rem;
 
   &__checkout__items-container__item {
@@ -15,6 +15,7 @@
   width: 100%;
   background-color: map-get(colors.$colors, gray-400);
   border-radius: 0.75rem 0.75rem 0 0;
+  padding: 1.25rem 0.75rem 1.25rem 0.75rem;
 
   &__items {
     width: 3rem;
