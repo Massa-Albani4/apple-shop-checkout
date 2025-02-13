@@ -11,7 +11,7 @@ function Item() {
         <div className="app__main__checkout__items-container__item__product-info__product-name-quantity">
           <p>iPhone 12 Pro</p>
           <p>Golden</p>
-          <p>X 1</p>
+          <p>x 1</p>
         </div>
         <div className="app__main__checkout__items-container__item__product-info__price-delete-container">
           <p className="app__main__checkout__items-container__item__product-info__price">
