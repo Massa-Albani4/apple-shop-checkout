@@ -1,0 +1,67 @@
+@use "/src/sass/abstracts/colors" as colors;
+@use "sass:map";
+
+.app__main__checkout__items-container__item__product-info {
+  display: flex;
+  flex-direction: row;
+  &__product-name-quantity {
+    display: flex;
+    flex-direction: column;
+    color: map.get(colors.$colors, blue-900);
+    margin: 0 4rem 0 1rem;
+    font-size: 0.875rem;
+  }
+
+  &__product-name-quantity > *:nth-child(2) {
+    margin-top: 0.25rem;
+    color: map.get(colors.$colors, blue-800);
+  }
+
+  &__product-name-quantity > *:nth-child(3) {
+    margin-top: 1.25rem;
+    color: map.get(colors.$colors, blue-800);
+  }
+
+  &__price-delete-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+    width: 3.7rem;
+  }
+}
+
+.app__main__checkout__items-container__item {
+  margin-bottom: 1rem;
+  &__image-container {
+    display: grid;
+    background-color: map.get(colors.$colors, gray-300);
+    border-radius: 0.6rem;
+    width: 5rem;
+    height: 5.5rem;
+    border: solid 1px map.get(colors.$colors, gray-500);
+  }
+
+  &__image-container img {
+    place-self: center;
+    width: 2rem;
+    height: 3rem;
+    object-fit: cover;
+    filter: blur(0);
+  }
+
+  &__delete-btn {
+    width: 1.5rem;
+    border: none;
+    background-color: map.get(colors.$colors, gray-400);
+    margin-left: 2.4rem;
+  }
+
+  &__delete-btn img {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+.app__main__checkout__items-container__item > *:nth-child(2) {
+  font-weight: 600;
+}
